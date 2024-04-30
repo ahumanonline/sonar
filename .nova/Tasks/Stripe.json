@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "stripe listen --forward-to http:\/\/localhost:2368\/members\/webhooks\/stripe\/"
+    }
+  },
+  "openLogOnRun" : "start",
+  "persistent" : true
+}
